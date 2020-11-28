@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{675fe9fe-9ae4-4e63-9d95-1215c3a88f52}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{fba2a21b-37cc-4a7b-be48-158fd626dc01}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{022d694e-7adb-490b-aa29-d5160cf9e264}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\boot">
+      <UniqueIdentifier>{f80e3dff-f492-42f1-8067-5989b6cc2c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\kernel">
+      <UniqueIdentifier>{bf42047f-91c7-4456-b5bc-cb3e99c18486}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Makefile" />
+    <ClCompile Include="src\kernel\kernel.c">
+      <Filter>Source files\kernel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\boot\boot_sect.asm">
+      <Filter>Source files\boot</Filter>
+    </None>
+    <None Include="src\boot\disk.asm">
+      <Filter>Source files\boot</Filter>
+    </None>
+    <None Include="src\boot\gdt.asm">
+      <Filter>Source files\boot</Filter>
+    </None>
+    <None Include="src\boot\load_kernel.asm">
+      <Filter>Source files\boot</Filter>
+    </None>
+    <None Include="src\boot\protected_mode.asm">
+      <Filter>Source files\boot</Filter>
+    </None>
+    <None Include="src\kernel\kernel_entry.asm">
+      <Filter>Source files\kernel</Filter>
+    </None>
+  </ItemGroup>
+</Project>
