@@ -7,7 +7,7 @@ This repo provides a demonstration of how bootsector/kernel development can done
 In order to utilize Visual Studio as a development environment for operating system development, you must first install the following pre-requisites
 
 * Visual Studio 2015+
-* [VisualGDB](https://visualgdb.com/) (see below)
+* [VisualGDB](https://visualgdb.com/) (paid software, see below)
 * [NASM 2.11.08](https://www.nasm.us/pub/nasm/releasebuilds/2.11.08/win32/nasm-2.11.08-installer.exe)
 * [i686-elf-tools](https://github.com/lordmilko/i686-elf-tools)
 * [QEMU 2.8.50.0](https://qemu.weilnetz.de/w32/2017/qemu-w32-setup-20170113.exe)
